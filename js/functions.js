@@ -1,4 +1,5 @@
 console.log("Functions.js loaded");
+console.log("Available functions: \n - reverse_radical(num) \n - quadform(a, b, c) \n - vertex(a, b, c)");
 
 function reverse_radical(num) {
   if(num == "" || typeof num === NaN || !Number.isInteger(num)){
